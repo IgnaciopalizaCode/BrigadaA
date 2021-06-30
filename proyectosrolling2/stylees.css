@@ -1,0 +1,507 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    background-color: white;
+}
+header{
+    font-size: large;
+}
+.right{
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+
+/*BODY*/
+.resume{
+    height: 500px;
+    
+
+}
+
+.resume .container .row .col-4 h1{
+    margin-top: 40px;
+    margin-left: 0px;
+    text-align: center;
+}
+.resume .container .row .col-4 .imagen-body{
+    margin-top: 50px;
+    text-align: center;
+}
+    
+.resume .container .row .col-4 .foter{
+    margin-top: 40px;
+    text-align: center;
+}
+.resume .container .row .col-4 h2{
+    margin-top: 10px;
+}
+
+.resume .container .row .col-8{
+    display: flex;
+}
+
+/*card*/
+.card2{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 18rem;
+    width: 18rem !important;
+    align-content: center;
+    
+    
+   
+}
+.card2:hover{
+    
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    background-color: rgb(158, 158, 158) !important;
+    filter: grayscale(0%);
+    box-shadow: none;
+    
+}
+.card2{
+    filter: grayscale(75%);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.card2 img{
+    padding: 0.8rem;
+    border-radius: 20px !important;
+    
+    
+}
+
+.card2 h1{
+    font-size: 25px;
+}
+   
+
+/*card3*/
+.card3{
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 18rem;
+    width: 18rem !important;
+    align-content: center;
+    
+    
+   
+}
+.card3:hover{
+    
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    background-color: rgb(158, 158, 158) !important;
+    filter: grayscale(0%);
+    box-shadow: none;
+    
+}
+.card3{
+    filter: grayscale(75%);
+    transition-duration: 0.5s;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+.card3 img{
+    padding: 0.8rem;
+    border-radius: 20px !important;
+    margin-top: 1rem;
+    
+    
+}
+
+.card3 h1{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.resume .container .row .col-8 a{
+    color: black;
+    text-decoration: none;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.seccion-redes li{
+    transition-duration: 0.5s;
+}
+.seccion-redes li:hover {
+    transform: scale(1.03); 
+    transition-duration: 0.5s;
+}
+.seccion-redes li a{
+    
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+  
+  }
+ 
+
+  .seccion-redes li a{
+      display: flex;
+      align-items: center;
+  }
+ .seccion-redes li {
+     list-style: none;
+    
+ }
+ @media (max-width: 576px) { 
+    .seccion-redes li a {
+         display:flex;
+         
+         font-size: 18px;
+     }
+  }
+  @media (min-width: 576px) and (max-width: 900px) { 
+      .seccion-redes li a {
+        display:flex;
+        
+        font-size: 18px;
+      }
+
+   }
+   @media (min-width: 900px) and (max-width: 1400px) { 
+    .seccion-redes li a {
+      display:flex;
+      
+      font-size: 18px;
+    }
+   }
+   .logo2{
+       margin-bottom: 10px;
+      width: 90px;
+      transition: 0.8s ease-in-out;
+   }
+   .logo2:hover{
+    transform: scale(1.1);
+
+   }
+@media only screen and (min-width:825px) and (max-width:1140px){
+    .imginicio h2{
+        font-size: 4rem;
+    }
+    .fila{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .columna{
+        height: 150px;
+        margin-bottom: 1rem;
+    }
+    .tarjeta{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        width: 350px !important;
+    }
+    .card img{
+        height:300px !important;
+    }
+    .contenedor-formulario{
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .formcito{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .formcito label{
+        font-size: 19px;
+        margin-bottom: 3px;
+    }
+    .formcito input{
+        display: inline-bloc;
+        padding: 3px 0 3px 0;
+    }
+    .btn-envio{
+        padding: 2px 1rem 2px 1rem;
+        background-color: black;
+        color: white;
+        
+    }
+    .companias{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .confian{
+        margin-top: 2rem;
+    }
+    .confian h2{
+        font-size: 2.5rem;
+        text-align: center
+    }
+    .companias img{
+        justify-self: center;
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width:570px) and (max-width:825px){
+    .imginicio h2{
+        font-size: 3rem;
+    }
+    .fila{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .columna{
+        height: 170px;
+        margin-bottom: 1rem;
+    }
+    .tarjeta{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .card{
+        width: 270px !important;
+    }
+    .card img{
+        height:200px !important;
+    }
+    .contenedor-formulario{
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .formcito{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .formcito label{
+        font-size: 19px;
+        margin-bottom: 3px;
+    }
+    .formcito input{
+        display: inline-bloc;
+        padding: 3px 0 3px 0;
+    }
+    .btn-envio{
+        padding: 2px 1rem 2px 1rem;
+        background-color: black;
+        color: white;
+        
+    }
+    .companias{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .confian{
+        margin-top: 1rem;
+    }
+    .confian h2{
+        font-size: 2.5rem;
+        text-align: center
+    }
+    .companias img{
+        justify-self: center;
+        margin-top: 5px;
+    }
+}
+@media only screen and (min-width:450px) and (max-width:570px){
+    .imginicio h2{
+        font-size: 3rem;
+    }
+    .fila{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .columna{
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    .tarjeta{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .card{
+        width: 320px !important;
+    }
+    .card img{
+        height:300px !important;
+    }
+    .contenedor-formulario{
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .formcito{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .formcito label{
+        font-size: 19px;
+        margin-bottom: 3px;
+    }
+    .formcito input{
+        display: inline-bloc;
+        padding: 3px 0 3px 0;
+    }
+    .btn-envio{
+        padding: 2px 1rem 2px 1rem;
+        background-color: black;
+        color: white;
+        
+    }
+    .companias{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .confian{
+        margin-top: 1rem;
+    }
+    .confian h2{
+        font-size: 2.5rem;
+        text-align: center
+    }
+    .companias img{
+        justify-self: center;
+        margin-top: 5px;
+    }
+}
+@media only screen and (max-width:450px){
+    .imginicio h2{
+        font-size: 3rem;
+    }
+    .fila{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .columna{
+        height: 200px;
+        margin-bottom: 1rem;
+    }
+    .tarjeta{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .card{
+        width: 320px !important;
+    }
+    .card img{
+        height:300px !important;
+    }
+    .contenedor-formulario{
+        margin-left: 2rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .formulario{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .formcito{
+        margin-top: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .formcito label{
+        font-size: 19px;
+        margin-bottom: 3px;
+    }
+    .formcito input{
+        display: inline-bloc;
+        padding: 3px 0 3px 0;
+    }
+    .btn-envio{
+        padding: 2px 1rem 2px 1rem;
+        background-color: black;
+        color: white;
+        
+    }
+    .companias{
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    .confian{
+        margin-top: 1rem;
+    }
+    .confian h2{
+        font-size: 2.5rem;
+        text-align: center
+    }
+    .companias img{
+        justify-self: center;
+        margin-top: 5px;
+    }
+    .imginicio{
+        background-image: url(/fondoa.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 80vh;
+        text-align: center;
+    }
+    .imginicio h2{
+        display: inline-block;
+        position: relative;
+        top: 15rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        padding: 3px;
+        background-color: white;
+    }
+    .columna{
+        text-align: center;
+        border: 1px solid black;
+        border-radius: 2px;
+        margin-left: 1rem;
+        height: 210px;
+    }
+    .navbar-collapse li{
+        text-align: right;
+    }
+    .navbar-collapse{
+        margin: 0 !important;
+    }
+}
