@@ -44,7 +44,7 @@ header{
 
 /*MAIN*/
 .imginicio{
-    background-image: url(/fondoa.jpg);
+    background-image: url(fondoa.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
